@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>CO-PO Suggestion</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+<nav>
+
+<a href="home.html">Home</a>
+<a href="suggestion.html">Suggestion</a>
+<a href="table1.html">Final Table</a>
+
+</nav>
+
+<h2 class="main">Auto Suggested CO-PO-PSO Mapping</h2>
+
+
+<div class="table-wrapper">
+
+<table id="mappingTable">
+
+<tr>
+
+<th rowspan="2">CO</th>
+<th colspan="2">PO</th>
+
+<th>PO1</th>
+<th>PO2</th>
+<th>PO3</th>
+<th>PO4</th>
+<th>PO5</th>
+<th>PO6</th>
+<th>PO7</th>
+<th>PO8</th>
+<th>PO9</th>
+<th>PO10</th>
+<th>PO11</th>
+<th>PSO1</th>
+<th>PSO2</th>
+
+</tr>
+
+
+<tr>
+
+<th colspan="2">K-LEVEL</th>
+
+<th>K3</th>
+<th>K4</th>
+<th>K5</th>
+<th>K5</th>
+<th>K6</th>
+<th>K3</th>
+<th>K2</th>
+<th>K3</th>
+<th>K3</th>
+<th>K2</th>
+<th>K3</th>
+<th>K3</th>
+<th>K4</th>
+
+</tr>
+
+<tbody id="mappingBody"></tbody>
+
+
+<tr>
+
+<th colspan="3">Course Contribution</th>
+
+<td id="cc1"></td>
+<td id="cc2"></td>
+<td id="cc3"></td>
+<td id="cc4"></td>
+<td id="cc5"></td>
+<td id="cc6"></td>
+<td id="cc7"></td>
+<td id="cc8"></td>
+<td id="cc9"></td>
+<td id="cc10"></td>
+<td id="cc11"></td>
+<td id="cc12"></td>
+<td id="cc13"></td>
+
+</tr>
+
+</table>
+
+</div>
+
+
+
+<h2 class="main">AI Suggestions to Improve CO-PO Mapping</h2>
+
+<table>
+
+<tr>
+<th>CO</th>
+<th>Weak PO</th>
+<th>Suggested Improvement</th>
+<th>Apply</th>
+</tr>
+
+<tbody id="aiSuggestions"></tbody>
+
+</table>
+
+
+
+<h2 class="main">Teaching Activities Guide</h2>
+
+<table>
+
+<tr>
+<th>PO</th>
+<th>Activity to Improve Mapping</th>
+</tr>
+
+<tr><td>PO1</td><td>Include numerical problem solving</td></tr>
+<tr><td>PO2</td><td>Case study analysis</td></tr>
+<tr><td>PO3</td><td>Design project or prototype</td></tr>
+<tr><td>PO4</td><td>Conduct experiments</td></tr>
+<tr><td>PO5</td><td>Use simulation tools (MATLAB / Python)</td></tr>
+<tr><td>PO6</td><td>Discuss societal impact</td></tr>
+<tr><td>PO7</td><td>Professional ethics discussion</td></tr>
+<tr><td>PO8</td><td>Teamwork activity</td></tr>
+<tr><td>PO9</td><td>Student presentation</td></tr>
+<tr><td>PO10</td><td>Project planning activity</td></tr>
+<tr><td>PO11</td><td>Research paper review</td></tr>
+<tr><td>PSO1</td><td>Circuit design activity</td></tr>
+<tr><td>PSO2</td><td>Hardware implementation</td></tr>
+
+</table>
+
+
+
+<div class="button-container">
+
+<button onclick="generateFinalTable()">
+Generate Final Table
+</button>
+
+</div>
+
+
+
+<h2 class="main">Final Approved Mapping (Preview)</h2>
+
+<div class="table-wrapper">
+
+<table id="approvedTable">
+
+<tr>
+
+<th rowspan="2">CO</th>
+<th colspan="2">PO</th>
+
+<th>PO1</th>
+<th>PO2</th>
+<th>PO3</th>
+<th>PO4</th>
+<th>PO5</th>
+<th>PO6</th>
+<th>PO7</th>
+<th>PO8</th>
+<th>PO9</th>
+<th>PO10</th>
+<th>PO11</th>
+<th>PSO1</th>
+<th>PSO2</th>
+
+</tr>
+
+<tr>
+
+<th colspan="2">K-LEVEL</th>
+
+<th>K3</th>
+<th>K4</th>
+<th>K5</th>
+<th>K5</th>
+<th>K6</th>
+<th>K3</th>
+<th>K2</th>
+<th>K3</th>
+<th>K3</th>
+<th>K2</th>
+<th>K3</th>
+<th>K3</th>
+<th>K4</th>
+
+</tr>
+
+<tbody id="approvedBody"></tbody>
+<tr>
+<th colspan="3">Course Contribution</th>
+
+<td id="fc1"></td>
+<td id="fc2"></td>
+<td id="fc3"></td>
+<td id="fc4"></td>
+<td id="fc5"></td>
+<td id="fc6"></td>
+<td id="fc7"></td>
+<td id="fc8"></td>
+<td id="fc9"></td>
+<td id="fc10"></td>
+<td id="fc11"></td>
+<td id="fc12"></td>
+<td id="fc13"></td>
+
+</tr>
+
+</table>
+
+</div>
+
+
+
+<div class="button-container">
+
+<button onclick="printTable('suggested')">
+Print Suggested Table
+</button>
+
+<button onclick="printTable('approved')">
+Print Final Approved Table
+</button>
+
+</div>
+
+
+
+</body>
+</html>

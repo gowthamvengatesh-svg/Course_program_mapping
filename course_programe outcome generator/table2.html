@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Final CO PO Mapping</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+
+<body>
+<div class="college-header">
+
+<h2>VELAMMAL COLLEGE OF ENGINEERING AND TECHNOLOGY, MADURAI</h2>
+<p>(Autonomous)</p>
+<p>Department of Electronics and Communication Engineering</p>
+
+</div>
+
+
+<div class="course-info">
+
+<div class="row">
+
+<div class="left">
+<label>Academic Year:</label>
+<input type="text" id="academicYear">
+</div>
+
+<div class="right">
+<label>Batch:</label>
+<input type="text" id="batch">
+</div>
+
+</div>
+
+
+<div class="row">
+
+<div class="left full">
+<label>Course Code / Name:</label>
+<input type="text" id="courseCode">
+</div>
+
+</div>
+
+
+<div class="row">
+
+<div class="left full">
+<label>Year / Semester / Section:</label>
+<input type="text" id="yearSemester">
+</div>
+
+</div>
+
+
+<div class="row">
+
+<div class="left full">
+<label>Course Incharge:</label>
+<input type="text" id="courseIncharge">
+</div>
+
+</div>
+</div>
+
+
+<h3 class="main">Course Outcomes</h3>
+
+<table>
+
+<tr>
+<th>CO</th>
+<th>Course Outcome</th>
+<th>K Level</th>
+</tr>
+
+<tbody id="coBody"></tbody>
+
+</table>
+<h3 class="main">CO-PO-PSO Mapping</h3>
+
+<div class="table-wrapper">
+
+<table id="approvedTable">
+
+<tr>
+
+<th rowspan="2">CO</th>
+<th colspan="2">PO</th>
+
+<th>PO1</th>
+<th>PO2</th>
+<th>PO3</th>
+<th>PO4</th>
+<th>PO5</th>
+<th>PO6</th>
+<th>PO7</th>
+<th>PO8</th>
+<th>PO9</th>
+<th>PO10</th>
+<th>PO11</th>
+<th>PSO1</th>
+<th>PSO2</th>
+
+</tr>
+
+<tr>
+
+<th colspan="2">K-LEVEL</th>
+
+<th>K3</th>
+<th>K4</th>
+<th>K5</th>
+<th>K5</th>
+<th>K6</th>
+<th>K3</th>
+<th>K2</th>
+<th>K3</th>
+<th>K3</th>
+<th>K2</th>
+<th>K3</th>
+<th>K3</th>
+<th>K4</th>
+
+</tr>
+
+<tbody id="approvedBody"></tbody>
+<tr>
+<th colspan="3">Course Contribution</th>
+
+<td id="fc1"></td>
+<td id="fc2"></td>
+<td id="fc3"></td>
+<td id="fc4"></td>
+<td id="fc5"></td>
+<td id="fc6"></td>
+<td id="fc7"></td>
+<td id="fc8"></td>
+<td id="fc9"></td>
+<td id="fc10"></td>
+<td id="fc11"></td>
+<td id="fc12"></td>
+<td id="fc13"></td>
+
+</tr>
+</table>
+
+</div>
+
+
+
+<br>
+<div style="text-align: center;">
+<p><b>3</b> – Strong Contribution</p>
+<p><b>2</b> – Moderate Contribution</p>
+<p><b>1</b> – Weak Contribution</p>
+</div>
+<br><br>
+
+<div class="signatures">
+
+<p>Course in Charge</p>
+
+<p>Course Coordinator</p>
+
+<p>Module Coordinator</p>
+
+<p>HOD / ECE</p>
+
+</div>
+
+<div class="button-container">
+
+<button onclick="location.href='home.html'">
+Home page
+</button>
+
+<button onclick="exportPDF()">Export PDF</button>
+
+<button onclick="exportExcel()">Export Excel</button>
+
+<button onclick="location.href='suggestion.html'">
+Go to Suggestion Page
+</button>
+
+</div>
+
+</body>
+</html>
